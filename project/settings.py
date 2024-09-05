@@ -35,9 +35,7 @@ LOGOUT_REDIRECT_URL = '/'
 # Application definition
 
 INSTALLED_APPS = [
-     # My Apps
-    'core',
-    'item',
+
     # Default Apps
     'django.contrib.admin',
     'django.contrib.auth',
@@ -46,6 +44,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
+    # My Apps
+    'core',
+    'item',
+    'dashboard'
    
     
 ]
